@@ -9,3 +9,21 @@
 .drum{
     text-align: center;
 }
+
+.m{
+    background-image: url("images/tom3.png");
+}
+
+.pressed{
+    height: 90px;
+    width: 90px;
+    border-color: rgb(214 211 209);
+}
+
+@media (min-width: 768px) {
+    .pressed{
+        height: 140px;
+        width: 140px;
+        border-color: rgb(214 211 209w);
+    }
+}
